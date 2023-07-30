@@ -16,7 +16,4 @@ public class Main {
 
     public void deleteClient() {
     }
-
-    public void notifyClient() {
-    }
 }
