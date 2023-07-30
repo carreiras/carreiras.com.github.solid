@@ -1,6 +1,10 @@
 package single_responsibility_principle.example_2;
 
-import static single_responsibility_principle.example_2.Cargo.*;
+import single_responsibility_principle.example_2.entity.Funcionario;
+import single_responsibility_principle.example_2.utility.DezOuVintePorCento;
+import single_responsibility_principle.example_2.utility.QuinzeOuVinteCincoPorCento;
+
+import static single_responsibility_principle.example_2.enums.Cargo.*;
 
 public class CalculadoraDeSalario {
 
