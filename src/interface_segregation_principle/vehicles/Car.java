@@ -1,6 +1,6 @@
 package interface_segregation_principle.vehicles;
 
-public class Car implements Vehicle {
+public class Car implements Vehicle, VehicleCar {
 
     private String color;
     private String year;
@@ -19,11 +19,6 @@ public class Car implements Vehicle {
         this.seats = seats;
         System.out.println("Criando um carro: " + color + " " + engine + " " + year + " com " + seats + " assentos.");
         startVehicle();
-    }
-
-    @Override
-    public void configureMotorcycle(String color, String year, double engine) {
-
     }
 
     @Override

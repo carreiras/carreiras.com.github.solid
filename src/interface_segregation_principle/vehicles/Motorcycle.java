@@ -1,6 +1,6 @@
 package interface_segregation_principle.vehicles;
 
-public class Motorcycle implements Vehicle {
+public class Motorcycle implements Vehicle, VehicleMotorcycle {
 
     private String color;
     private String year;
@@ -8,11 +8,6 @@ public class Motorcycle implements Vehicle {
 
     public Motorcycle(String color, String year, double engine) {
         configureMotorcycle(color, year, engine);
-    }
-
-    @Override
-    public void configureCar(String color, String year, double engine, int seats) {
-
     }
 
     @Override
