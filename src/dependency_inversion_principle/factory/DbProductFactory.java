@@ -8,4 +8,5 @@ public class DbProductFactory {
     public static DbProduct create() {
         return new MySQLProduct();
     }
+
 }
